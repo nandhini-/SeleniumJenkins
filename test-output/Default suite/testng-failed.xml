@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.test.scripts.sys_admin">
+        <methods>
+          <include name="setExtent"/>
+          <include name="test_sysadminUrl"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.test.scripts.sys_admin -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

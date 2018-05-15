@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [IDM TEST]">
+  <test name="TEST IDM(failed)">
+    <classes>
+      <class name="com.test.scripts.trackUser">
+        <methods>
+          <include name="closeApplication"/>
+          <include name="trackUser_reg"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.test.scripts.trackUser -->
+      <class name="com.test.scripts.sys_admin">
+        <methods>
+          <include name="setExtent"/>
+          <include name="closeApplication"/>
+          <include name="endReport"/>
+          <include name="test_sysadminUrl"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.test.scripts.sys_admin -->
+    </classes>
+  </test> <!-- TEST IDM(failed) -->
+</suite> <!-- Failed suite [IDM TEST] -->

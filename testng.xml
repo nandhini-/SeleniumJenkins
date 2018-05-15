@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="IDM TEST">
+<test verbose="2" name="TEST IDM">
+<classes>
+<class name="com.test.scripts.sys_admin"/>
+<class name="com.test.scripts.trackUser"/>
+</classes>
+</test>
+<!--  Default test  -->
+</suite>
